@@ -13,7 +13,9 @@ This project does the following:
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 You can download the tidydata.txt and read it into R using read.table function:
->df <- read.table( path_file, header = TRUE, stringsAsFactors = FALSE)
+
+df <- read.table( path_file, header = TRUE, stringsAsFactors = FALSE)
+
 Here, path_file is the path and filename that the downloaded file lies in your computer.
 
 For each record of the tidy data it is provided:
